@@ -123,6 +123,17 @@ span{
     animation: float 4s ease-in-out infinite;
 
 }
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color)
 }
