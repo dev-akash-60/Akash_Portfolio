@@ -103,16 +103,25 @@ span{
     line-height: 1;
 }
 .home-img{
-    border-radius: 50%;
+    margin-top: 15rem;
+    margin-right: 3rem;
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
 }
 .home-img img{
+    height: 500%;
+    margin-top: auto;
     position: relative;
-    top: 3rem;
-    width: 32vw;
-    border-radius: 50%;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    animation: float 4s ease-in-out infinite;
+
 }
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color)
